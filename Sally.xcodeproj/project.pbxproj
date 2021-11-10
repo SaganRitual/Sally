@@ -45,6 +45,14 @@
 		D4A1BBA9273B8020003F0EF5 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1BBA7273B8020003F0EF5 /* Layer.swift */; };
 		D4A1BBAB273B8EFC003F0EF5 /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1BBAA273B8EFC003F0EF5 /* ArenaView.swift */; };
 		D4A1BBAC273B8EFC003F0EF5 /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1BBAA273B8EFC003F0EF5 /* ArenaView.swift */; };
+		D4A1BBB1273B9204003F0EF5 /* swiftlint.sh in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBAD273B9204003F0EF5 /* swiftlint.sh */; };
+		D4A1BBB2273B9204003F0EF5 /* swiftlint.sh in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBAD273B9204003F0EF5 /* swiftlint.sh */; };
+		D4A1BBB3273B9204003F0EF5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBAE273B9204003F0EF5 /* .gitignore */; };
+		D4A1BBB4273B9204003F0EF5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBAE273B9204003F0EF5 /* .gitignore */; };
+		D4A1BBB5273B9204003F0EF5 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBAF273B9204003F0EF5 /* .swiftlint.yml */; };
+		D4A1BBB6273B9204003F0EF5 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBAF273B9204003F0EF5 /* .swiftlint.yml */; };
+		D4A1BBB7273B9204003F0EF5 /* .overcommit.yml in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBB0273B9204003F0EF5 /* .overcommit.yml */; };
+		D4A1BBB8273B9204003F0EF5 /* .overcommit.yml in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBB0273B9204003F0EF5 /* .overcommit.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +78,10 @@
 		D43E493F273B65A4004031EE /* TriangleFormulae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleFormulae.swift; sourceTree = "<group>"; };
 		D4A1BBA7273B8020003F0EF5 /* Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
 		D4A1BBAA273B8EFC003F0EF5 /* ArenaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArenaView.swift; sourceTree = "<group>"; };
+		D4A1BBAD273B9204003F0EF5 /* swiftlint.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = swiftlint.sh; sourceTree = "<group>"; };
+		D4A1BBAE273B9204003F0EF5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D4A1BBAF273B9204003F0EF5 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		D4A1BBB0273B9204003F0EF5 /* .overcommit.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .overcommit.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +105,10 @@
 		D43E4892273B5ACF004031EE = {
 			isa = PBXGroup;
 			children = (
+				D4A1BBAE273B9204003F0EF5 /* .gitignore */,
+				D4A1BBB0273B9204003F0EF5 /* .overcommit.yml */,
+				D4A1BBAF273B9204003F0EF5 /* .swiftlint.yml */,
+				D4A1BBAD273B9204003F0EF5 /* swiftlint.sh */,
 				D43E4897273B5ACF004031EE /* Shared */,
 				D43E48A6273B5AD1004031EE /* macOS */,
 				D43E48A0273B5AD1004031EE /* Products */,
@@ -165,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43E48B0273B5AD1004031EE /* Build configuration list for PBXNativeTarget "Sally (iOS)" */;
 			buildPhases = (
+				D4A1BBBA273B9249003F0EF5 /* ShellScript */,
 				D43E489B273B5AD1004031EE /* Sources */,
 				D43E489C273B5AD1004031EE /* Frameworks */,
 				D43E489D273B5AD1004031EE /* Resources */,
@@ -182,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43E48B3273B5AD1004031EE /* Build configuration list for PBXNativeTarget "Sally (macOS)" */;
 			buildPhases = (
+				D4A1BBB9273B922C003F0EF5 /* ShellScript */,
 				D43E48A1273B5AD1004031EE /* Sources */,
 				D43E48A2273B5AD1004031EE /* Frameworks */,
 				D43E48A3273B5AD1004031EE /* Resources */,
@@ -237,7 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A1BBB5273B9204003F0EF5 /* .swiftlint.yml in Resources */,
 				D43E48AC273B5AD1004031EE /* Assets.xcassets in Resources */,
+				D4A1BBB7273B9204003F0EF5 /* .overcommit.yml in Resources */,
+				D4A1BBB3273B9204003F0EF5 /* .gitignore in Resources */,
+				D4A1BBB1273B9204003F0EF5 /* swiftlint.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,11 +267,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A1BBB6273B9204003F0EF5 /* .swiftlint.yml in Resources */,
 				D43E48AD273B5AD1004031EE /* Assets.xcassets in Resources */,
+				D4A1BBB8273B9204003F0EF5 /* .overcommit.yml in Resources */,
+				D4A1BBB4273B9204003F0EF5 /* .gitignore in Resources */,
+				D4A1BBB2273B9204003F0EF5 /* swiftlint.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4A1BBB9273B922C003F0EF5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./swiftlint.sh\n";
+		};
+		D4A1BBBA273B9249003F0EF5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./swiftlint.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D43E489B273B5AD1004031EE /* Sources */ = {
