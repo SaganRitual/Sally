@@ -6,14 +6,14 @@ import SwiftUI
 class ArenaScenePlusDelegate: SKScene, SKSceneDelegate {
     let ringo: SKShapeNode
 
-    override init() {
+    override init(size: CGSize) {
         ringo = SKShapeNode(circleOfRadius: 100)
         ringo.lineWidth = 5
         ringo.fillColor = .clear
         ringo.strokeColor = .white
         ringo.zPosition = 5
 
-        super.init()
+        super.init(size: size)
         self.addChild(ringo)
     }
 
@@ -23,7 +23,9 @@ class ArenaScenePlusDelegate: SKScene, SKSceneDelegate {
 }
 
 struct ArenaView: View {
-    @State var arenaScene = ArenaScenePlusDelegate()
+    @State var arenaScene = ArenaScenePlusDelegate(
+        size: CGSize(width: 2880, height: 1800)
+    )
 
     var body: some View {
         SpriteView(scene: arenaScene)
