@@ -12,11 +12,11 @@ struct ContentView: View {
                 AppSettingsView()
                 LayerSettingsListView()
             }
-            .environmentObject(arenaScene)
             .frame(width: 300)
 
             ArenaView()
         }
+        .environmentObject(arenaScene)
     }
 }
 

@@ -27,8 +27,6 @@
 		D43E4931273B62A1004031EE /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4921273B62A1004031EE /* AppSettingsView.swift */; };
 		D43E4932273B62A1004031EE /* LayerToggleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4922273B62A1004031EE /* LayerToggleGroupView.swift */; };
 		D43E4933273B62A1004031EE /* LayerToggleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4922273B62A1004031EE /* LayerToggleGroupView.swift */; };
-		D43E4934273B62A1004031EE /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4923273B62A1004031EE /* ArenaView.swift */; };
-		D43E4935273B62A1004031EE /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4923273B62A1004031EE /* ArenaView.swift */; };
 		D43E4936273B62A1004031EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4924273B62A1004031EE /* ContentView.swift */; };
 		D43E4937273B62A1004031EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4924273B62A1004031EE /* ContentView.swift */; };
 		D43E4938273B62A1004031EE /* SettingsSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4925273B62A1004031EE /* SettingsSliderView.swift */; };
@@ -43,6 +41,10 @@
 		D43E4947273B65A4004031EE /* Overload2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493E273B65A4004031EE /* Overload2D.swift */; };
 		D43E4948273B65A4004031EE /* TriangleFormulae.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493F273B65A4004031EE /* TriangleFormulae.swift */; };
 		D43E4949273B65A4004031EE /* TriangleFormulae.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493F273B65A4004031EE /* TriangleFormulae.swift */; };
+		D4A1BBA8273B8020003F0EF5 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1BBA7273B8020003F0EF5 /* Layer.swift */; };
+		D4A1BBA9273B8020003F0EF5 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1BBA7273B8020003F0EF5 /* Layer.swift */; };
+		D4A1BBAB273B8EFC003F0EF5 /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1BBAA273B8EFC003F0EF5 /* ArenaView.swift */; };
+		D4A1BBAC273B8EFC003F0EF5 /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1BBAA273B8EFC003F0EF5 /* ArenaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +61,6 @@
 		D43E4920273B62A1004031EE /* LayerSettingsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerSettingsListView.swift; sourceTree = "<group>"; };
 		D43E4921273B62A1004031EE /* AppSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
 		D43E4922273B62A1004031EE /* LayerToggleGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerToggleGroupView.swift; sourceTree = "<group>"; };
-		D43E4923273B62A1004031EE /* ArenaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArenaView.swift; sourceTree = "<group>"; };
 		D43E4924273B62A1004031EE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D43E4925273B62A1004031EE /* SettingsSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSliderView.swift; sourceTree = "<group>"; };
 		D43E493B273B65A4004031EE /* GridPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridPoint.swift; sourceTree = "<group>"; };
@@ -67,6 +68,8 @@
 		D43E493D273B65A4004031EE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D43E493E273B65A4004031EE /* Overload2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overload2D.swift; sourceTree = "<group>"; };
 		D43E493F273B65A4004031EE /* TriangleFormulae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleFormulae.swift; sourceTree = "<group>"; };
+		D4A1BBA7273B8020003F0EF5 /* Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		D4A1BBAA273B8EFC003F0EF5 /* ArenaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArenaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 				D43E491B273B62A1004031EE /* Views */,
 				D43E4918273B5F91004031EE /* ArenaScene.swift */,
 				D43E4924273B62A1004031EE /* ContentView.swift */,
+				D4A1BBA7273B8020003F0EF5 /* Layer.swift */,
 				D43E4898273B5ACF004031EE /* SallyApp.swift */,
 				D43E489A273B5AD1004031EE /* Assets.xcassets */,
 			);
@@ -129,8 +133,8 @@
 		D43E491B273B62A1004031EE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D4A1BBAA273B8EFC003F0EF5 /* ArenaView.swift */,
 				D43E4921273B62A1004031EE /* AppSettingsView.swift */,
-				D43E4923273B62A1004031EE /* ArenaView.swift */,
 				D43E4920273B62A1004031EE /* LayerSettingsListView.swift */,
 				D43E491F273B62A1004031EE /* LayerSettingsView.swift */,
 				D43E491E273B62A1004031EE /* LayerSlidersGroupView.swift */,
@@ -264,9 +268,10 @@
 				D43E492C273B62A1004031EE /* LayerSettingsView.swift in Sources */,
 				D43E4942273B65A4004031EE /* Deque.swift in Sources */,
 				D43E4928273B62A1004031EE /* LayerView.swift in Sources */,
+				D4A1BBAB273B8EFC003F0EF5 /* ArenaView.swift in Sources */,
 				D43E492E273B62A1004031EE /* LayerSettingsListView.swift in Sources */,
 				D43E4944273B65A4004031EE /* Extensions.swift in Sources */,
-				D43E4934273B62A1004031EE /* ArenaView.swift in Sources */,
+				D4A1BBA8273B8020003F0EF5 /* Layer.swift in Sources */,
 				D43E4919273B5F91004031EE /* ArenaScene.swift in Sources */,
 				D43E48A8273B5AD1004031EE /* SallyApp.swift in Sources */,
 			);
@@ -288,9 +293,10 @@
 				D43E492D273B62A1004031EE /* LayerSettingsView.swift in Sources */,
 				D43E4943273B65A4004031EE /* Deque.swift in Sources */,
 				D43E4929273B62A1004031EE /* LayerView.swift in Sources */,
+				D4A1BBAC273B8EFC003F0EF5 /* ArenaView.swift in Sources */,
 				D43E492F273B62A1004031EE /* LayerSettingsListView.swift in Sources */,
 				D43E4945273B65A4004031EE /* Extensions.swift in Sources */,
-				D43E4935273B62A1004031EE /* ArenaView.swift in Sources */,
+				D4A1BBA9273B8020003F0EF5 /* Layer.swift in Sources */,
 				D43E491A273B5F91004031EE /* ArenaScene.swift in Sources */,
 				D43E48A9273B5AD1004031EE /* SallyApp.swift in Sources */,
 			);
