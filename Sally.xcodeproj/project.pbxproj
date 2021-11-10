@@ -13,6 +13,10 @@
 		D43E48AB273B5AD1004031EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4899273B5ACF004031EE /* ContentView.swift */; };
 		D43E48AC273B5AD1004031EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43E489A273B5AD1004031EE /* Assets.xcassets */; };
 		D43E48AD273B5AD1004031EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43E489A273B5AD1004031EE /* Assets.xcassets */; };
+		D43E4914273B5CF7004031EE /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4912273B5CF7004031EE /* ArenaView.swift */; };
+		D43E4915273B5CF7004031EE /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4912273B5CF7004031EE /* ArenaView.swift */; };
+		D43E4916273B5CF7004031EE /* LayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4913273B5CF7004031EE /* LayerView.swift */; };
+		D43E4917273B5CF7004031EE /* LayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4913273B5CF7004031EE /* LayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		D43E489F273B5AD1004031EE /* Sally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43E48A5273B5AD1004031EE /* Sally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43E48A7273B5AD1004031EE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D43E4912273B5CF7004031EE /* ArenaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArenaView.swift; sourceTree = "<group>"; };
+		D43E4913273B5CF7004031EE /* LayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,10 @@
 		D43E4897273B5ACF004031EE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D43E4898273B5ACF004031EE /* SallyApp.swift */,
+				D43E4912273B5CF7004031EE /* ArenaView.swift */,
 				D43E4899273B5ACF004031EE /* ContentView.swift */,
+				D43E4913273B5CF7004031EE /* LayerView.swift */,
+				D43E4898273B5ACF004031EE /* SallyApp.swift */,
 				D43E489A273B5AD1004031EE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -176,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43E4914273B5CF7004031EE /* ArenaView.swift in Sources */,
 				D43E48AA273B5AD1004031EE /* ContentView.swift in Sources */,
+				D43E4916273B5CF7004031EE /* LayerView.swift in Sources */,
 				D43E48A8273B5AD1004031EE /* SallyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +195,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43E4915273B5CF7004031EE /* ArenaView.swift in Sources */,
 				D43E48AB273B5AD1004031EE /* ContentView.swift in Sources */,
+				D43E4917273B5CF7004031EE /* LayerView.swift in Sources */,
 				D43E48A9273B5AD1004031EE /* SallyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

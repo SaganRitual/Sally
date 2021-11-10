@@ -7,6 +7,7 @@ struct SallyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .previewInterfaceOrientation(.landscapeLeft)
         }
     }
 }
