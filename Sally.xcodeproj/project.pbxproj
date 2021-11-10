@@ -53,6 +53,8 @@
 		D4A1BBB6273B9204003F0EF5 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBAF273B9204003F0EF5 /* .swiftlint.yml */; };
 		D4A1BBB7273B9204003F0EF5 /* .overcommit.yml in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBB0273B9204003F0EF5 /* .overcommit.yml */; };
 		D4A1BBB8273B9204003F0EF5 /* .overcommit.yml in Resources */ = {isa = PBXBuildFile; fileRef = D4A1BBB0273B9204003F0EF5 /* .overcommit.yml */; };
+		D4A1BBBD273BC70C003F0EF5 /* Size_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1BBBB273BC70C003F0EF5 /* Size_macOS.swift */; };
+		D4A1BBBF273BC776003F0EF5 /* Size_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1BBBE273BC764003F0EF5 /* Size_iOS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		D4A1BBAE273B9204003F0EF5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D4A1BBAF273B9204003F0EF5 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		D4A1BBB0273B9204003F0EF5 /* .overcommit.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .overcommit.yml; sourceTree = "<group>"; };
+		D4A1BBBB273BC70C003F0EF5 /* Size_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size_macOS.swift; sourceTree = "<group>"; };
+		D4A1BBBE273BC764003F0EF5 /* Size_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size_iOS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 				D43E493D273B65A4004031EE /* Extensions.swift */,
 				D43E493B273B65A4004031EE /* GridPoint.swift */,
 				D43E493E273B65A4004031EE /* Overload2D.swift */,
+				D4A1BBBB273BC70C003F0EF5 /* Size_macOS.swift */,
+				D4A1BBBE273BC764003F0EF5 /* Size_iOS.swift */,
 				D43E493F273B65A4004031EE /* TriangleFormulae.swift */,
 			);
 			path = NutsNBolts;
@@ -334,6 +340,7 @@
 				D4A1BBAB273B8EFC003F0EF5 /* ArenaView.swift in Sources */,
 				D43E492E273B62A1004031EE /* LayerSettingsListView.swift in Sources */,
 				D43E4944273B65A4004031EE /* Extensions.swift in Sources */,
+				D4A1BBBF273BC776003F0EF5 /* Size_iOS.swift in Sources */,
 				D4A1BBA8273B8020003F0EF5 /* Layer.swift in Sources */,
 				D43E4919273B5F91004031EE /* ArenaScene.swift in Sources */,
 				D43E48A8273B5AD1004031EE /* SallyApp.swift in Sources */,
@@ -354,6 +361,7 @@
 				D43E4933273B62A1004031EE /* LayerToggleGroupView.swift in Sources */,
 				D43E4941273B65A4004031EE /* GridPoint.swift in Sources */,
 				D43E492D273B62A1004031EE /* LayerSettingsView.swift in Sources */,
+				D4A1BBBD273BC70C003F0EF5 /* Size_macOS.swift in Sources */,
 				D43E4943273B65A4004031EE /* Deque.swift in Sources */,
 				D43E4929273B62A1004031EE /* LayerView.swift in Sources */,
 				D4A1BBAC273B8EFC003F0EF5 /* ArenaView.swift in Sources */,

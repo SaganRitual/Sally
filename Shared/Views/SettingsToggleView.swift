@@ -10,7 +10,7 @@ struct SettingsToggleView: View {
     var body: some View {
         HStack {
             Image(systemName: isChecked ? "capsule.fill" : "capsule")
-                .foregroundColor(isChecked ? Color(NSColor.systemBlue) : Color.secondary)
+                .foregroundColor(isChecked ? Color(Size.systemBlue) : Color.secondary)
                 .onTapGesture { self.isChecked.toggle() }
                 .frame(width: 30, alignment: .leading)
                 .padding(.trailing, -10)

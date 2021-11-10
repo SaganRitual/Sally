@@ -44,8 +44,8 @@ struct AppSettingsView: View {
                     label: "Speed", range: 0...10,
                     value: $simulationSpeed
                 )
-//                .padding(.trailing, 10)
-//                .onChange(of: simulationSpeed) { arenaScene.speed = simulationSpeed }
+                    .padding(.trailing, 10)
+                    .onChange(of: simulationSpeed) { arenaScene.speed = $0 }
 
                 Text("\(simulationSpeed.asString(decimals: 2))")
                     .padding(.trailing, 10)
@@ -54,9 +54,7 @@ struct AppSettingsView: View {
             HStack {
                 SettingsSliderView(label: "Zoom", range: 0.1...10, value: $zoomLevel)
                     .padding(.trailing, 10)
-                    .onChange(of: zoomLevel) { newValue in
-                        arenaScene.setViewingScale(zoomLevel)
-                    }
+                    .onChange(of: zoomLevel) { arenaScene.setViewingScale($0) }
 
                 Text("\(zoomLevel.asString(decimals: 2))")
                     .padding(.trailing, 10)
