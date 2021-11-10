@@ -9,25 +9,64 @@
 /* Begin PBXBuildFile section */
 		D43E48A8273B5AD1004031EE /* SallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4898273B5ACF004031EE /* SallyApp.swift */; };
 		D43E48A9273B5AD1004031EE /* SallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4898273B5ACF004031EE /* SallyApp.swift */; };
-		D43E48AA273B5AD1004031EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4899273B5ACF004031EE /* ContentView.swift */; };
-		D43E48AB273B5AD1004031EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4899273B5ACF004031EE /* ContentView.swift */; };
 		D43E48AC273B5AD1004031EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43E489A273B5AD1004031EE /* Assets.xcassets */; };
 		D43E48AD273B5AD1004031EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43E489A273B5AD1004031EE /* Assets.xcassets */; };
-		D43E4914273B5CF7004031EE /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4912273B5CF7004031EE /* ArenaView.swift */; };
-		D43E4915273B5CF7004031EE /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4912273B5CF7004031EE /* ArenaView.swift */; };
-		D43E4916273B5CF7004031EE /* LayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4913273B5CF7004031EE /* LayerView.swift */; };
-		D43E4917273B5CF7004031EE /* LayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4913273B5CF7004031EE /* LayerView.swift */; };
+		D43E4919273B5F91004031EE /* ArenaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4918273B5F91004031EE /* ArenaScene.swift */; };
+		D43E491A273B5F91004031EE /* ArenaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4918273B5F91004031EE /* ArenaScene.swift */; };
+		D43E4926273B62A1004031EE /* SettingsToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E491C273B62A1004031EE /* SettingsToggleView.swift */; };
+		D43E4927273B62A1004031EE /* SettingsToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E491C273B62A1004031EE /* SettingsToggleView.swift */; };
+		D43E4928273B62A1004031EE /* LayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E491D273B62A1004031EE /* LayerView.swift */; };
+		D43E4929273B62A1004031EE /* LayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E491D273B62A1004031EE /* LayerView.swift */; };
+		D43E492A273B62A1004031EE /* LayerSlidersGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E491E273B62A1004031EE /* LayerSlidersGroupView.swift */; };
+		D43E492B273B62A1004031EE /* LayerSlidersGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E491E273B62A1004031EE /* LayerSlidersGroupView.swift */; };
+		D43E492C273B62A1004031EE /* LayerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E491F273B62A1004031EE /* LayerSettingsView.swift */; };
+		D43E492D273B62A1004031EE /* LayerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E491F273B62A1004031EE /* LayerSettingsView.swift */; };
+		D43E492E273B62A1004031EE /* LayerSettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4920273B62A1004031EE /* LayerSettingsListView.swift */; };
+		D43E492F273B62A1004031EE /* LayerSettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4920273B62A1004031EE /* LayerSettingsListView.swift */; };
+		D43E4930273B62A1004031EE /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4921273B62A1004031EE /* AppSettingsView.swift */; };
+		D43E4931273B62A1004031EE /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4921273B62A1004031EE /* AppSettingsView.swift */; };
+		D43E4932273B62A1004031EE /* LayerToggleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4922273B62A1004031EE /* LayerToggleGroupView.swift */; };
+		D43E4933273B62A1004031EE /* LayerToggleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4922273B62A1004031EE /* LayerToggleGroupView.swift */; };
+		D43E4934273B62A1004031EE /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4923273B62A1004031EE /* ArenaView.swift */; };
+		D43E4935273B62A1004031EE /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4923273B62A1004031EE /* ArenaView.swift */; };
+		D43E4936273B62A1004031EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4924273B62A1004031EE /* ContentView.swift */; };
+		D43E4937273B62A1004031EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4924273B62A1004031EE /* ContentView.swift */; };
+		D43E4938273B62A1004031EE /* SettingsSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4925273B62A1004031EE /* SettingsSliderView.swift */; };
+		D43E4939273B62A1004031EE /* SettingsSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4925273B62A1004031EE /* SettingsSliderView.swift */; };
+		D43E4940273B65A4004031EE /* GridPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493B273B65A4004031EE /* GridPoint.swift */; };
+		D43E4941273B65A4004031EE /* GridPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493B273B65A4004031EE /* GridPoint.swift */; };
+		D43E4942273B65A4004031EE /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493C273B65A4004031EE /* Deque.swift */; };
+		D43E4943273B65A4004031EE /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493C273B65A4004031EE /* Deque.swift */; };
+		D43E4944273B65A4004031EE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493D273B65A4004031EE /* Extensions.swift */; };
+		D43E4945273B65A4004031EE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493D273B65A4004031EE /* Extensions.swift */; };
+		D43E4946273B65A4004031EE /* Overload2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493E273B65A4004031EE /* Overload2D.swift */; };
+		D43E4947273B65A4004031EE /* Overload2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493E273B65A4004031EE /* Overload2D.swift */; };
+		D43E4948273B65A4004031EE /* TriangleFormulae.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493F273B65A4004031EE /* TriangleFormulae.swift */; };
+		D43E4949273B65A4004031EE /* TriangleFormulae.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E493F273B65A4004031EE /* TriangleFormulae.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D43E4898273B5ACF004031EE /* SallyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SallyApp.swift; sourceTree = "<group>"; };
-		D43E4899273B5ACF004031EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D43E489A273B5AD1004031EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D43E489F273B5AD1004031EE /* Sally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43E48A5273B5AD1004031EE /* Sally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43E48A7273B5AD1004031EE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		D43E4912273B5CF7004031EE /* ArenaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArenaView.swift; sourceTree = "<group>"; };
-		D43E4913273B5CF7004031EE /* LayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerView.swift; sourceTree = "<group>"; };
+		D43E4918273B5F91004031EE /* ArenaScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaScene.swift; sourceTree = "<group>"; };
+		D43E491C273B62A1004031EE /* SettingsToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsToggleView.swift; sourceTree = "<group>"; };
+		D43E491D273B62A1004031EE /* LayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerView.swift; sourceTree = "<group>"; };
+		D43E491E273B62A1004031EE /* LayerSlidersGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerSlidersGroupView.swift; sourceTree = "<group>"; };
+		D43E491F273B62A1004031EE /* LayerSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerSettingsView.swift; sourceTree = "<group>"; };
+		D43E4920273B62A1004031EE /* LayerSettingsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerSettingsListView.swift; sourceTree = "<group>"; };
+		D43E4921273B62A1004031EE /* AppSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
+		D43E4922273B62A1004031EE /* LayerToggleGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerToggleGroupView.swift; sourceTree = "<group>"; };
+		D43E4923273B62A1004031EE /* ArenaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArenaView.swift; sourceTree = "<group>"; };
+		D43E4924273B62A1004031EE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D43E4925273B62A1004031EE /* SettingsSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSliderView.swift; sourceTree = "<group>"; };
+		D43E493B273B65A4004031EE /* GridPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridPoint.swift; sourceTree = "<group>"; };
+		D43E493C273B65A4004031EE /* Deque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
+		D43E493D273B65A4004031EE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D43E493E273B65A4004031EE /* Overload2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overload2D.swift; sourceTree = "<group>"; };
+		D43E493F273B65A4004031EE /* TriangleFormulae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleFormulae.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +99,10 @@
 		D43E4897273B5ACF004031EE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D43E4912273B5CF7004031EE /* ArenaView.swift */,
-				D43E4899273B5ACF004031EE /* ContentView.swift */,
-				D43E4913273B5CF7004031EE /* LayerView.swift */,
+				D43E493A273B65A4004031EE /* NutsNBolts */,
+				D43E491B273B62A1004031EE /* Views */,
+				D43E4918273B5F91004031EE /* ArenaScene.swift */,
+				D43E4924273B62A1004031EE /* ContentView.swift */,
 				D43E4898273B5ACF004031EE /* SallyApp.swift */,
 				D43E489A273B5AD1004031EE /* Assets.xcassets */,
 			);
@@ -84,6 +124,34 @@
 				D43E48A7273B5AD1004031EE /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		D43E491B273B62A1004031EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D43E4921273B62A1004031EE /* AppSettingsView.swift */,
+				D43E4923273B62A1004031EE /* ArenaView.swift */,
+				D43E4920273B62A1004031EE /* LayerSettingsListView.swift */,
+				D43E491F273B62A1004031EE /* LayerSettingsView.swift */,
+				D43E491E273B62A1004031EE /* LayerSlidersGroupView.swift */,
+				D43E4922273B62A1004031EE /* LayerToggleGroupView.swift */,
+				D43E491D273B62A1004031EE /* LayerView.swift */,
+				D43E4925273B62A1004031EE /* SettingsSliderView.swift */,
+				D43E491C273B62A1004031EE /* SettingsToggleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D43E493A273B65A4004031EE /* NutsNBolts */ = {
+			isa = PBXGroup;
+			children = (
+				D43E493C273B65A4004031EE /* Deque.swift */,
+				D43E493D273B65A4004031EE /* Extensions.swift */,
+				D43E493B273B65A4004031EE /* GridPoint.swift */,
+				D43E493E273B65A4004031EE /* Overload2D.swift */,
+				D43E493F273B65A4004031EE /* TriangleFormulae.swift */,
+			);
+			path = NutsNBolts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +252,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43E4914273B5CF7004031EE /* ArenaView.swift in Sources */,
-				D43E48AA273B5AD1004031EE /* ContentView.swift in Sources */,
-				D43E4916273B5CF7004031EE /* LayerView.swift in Sources */,
+				D43E4938273B62A1004031EE /* SettingsSliderView.swift in Sources */,
+				D43E4946273B65A4004031EE /* Overload2D.swift in Sources */,
+				D43E4948273B65A4004031EE /* TriangleFormulae.swift in Sources */,
+				D43E492A273B62A1004031EE /* LayerSlidersGroupView.swift in Sources */,
+				D43E4936273B62A1004031EE /* ContentView.swift in Sources */,
+				D43E4930273B62A1004031EE /* AppSettingsView.swift in Sources */,
+				D43E4926273B62A1004031EE /* SettingsToggleView.swift in Sources */,
+				D43E4932273B62A1004031EE /* LayerToggleGroupView.swift in Sources */,
+				D43E4940273B65A4004031EE /* GridPoint.swift in Sources */,
+				D43E492C273B62A1004031EE /* LayerSettingsView.swift in Sources */,
+				D43E4942273B65A4004031EE /* Deque.swift in Sources */,
+				D43E4928273B62A1004031EE /* LayerView.swift in Sources */,
+				D43E492E273B62A1004031EE /* LayerSettingsListView.swift in Sources */,
+				D43E4944273B65A4004031EE /* Extensions.swift in Sources */,
+				D43E4934273B62A1004031EE /* ArenaView.swift in Sources */,
+				D43E4919273B5F91004031EE /* ArenaScene.swift in Sources */,
 				D43E48A8273B5AD1004031EE /* SallyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,9 +276,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43E4915273B5CF7004031EE /* ArenaView.swift in Sources */,
-				D43E48AB273B5AD1004031EE /* ContentView.swift in Sources */,
-				D43E4917273B5CF7004031EE /* LayerView.swift in Sources */,
+				D43E4939273B62A1004031EE /* SettingsSliderView.swift in Sources */,
+				D43E4947273B65A4004031EE /* Overload2D.swift in Sources */,
+				D43E4949273B65A4004031EE /* TriangleFormulae.swift in Sources */,
+				D43E492B273B62A1004031EE /* LayerSlidersGroupView.swift in Sources */,
+				D43E4937273B62A1004031EE /* ContentView.swift in Sources */,
+				D43E4931273B62A1004031EE /* AppSettingsView.swift in Sources */,
+				D43E4927273B62A1004031EE /* SettingsToggleView.swift in Sources */,
+				D43E4933273B62A1004031EE /* LayerToggleGroupView.swift in Sources */,
+				D43E4941273B65A4004031EE /* GridPoint.swift in Sources */,
+				D43E492D273B62A1004031EE /* LayerSettingsView.swift in Sources */,
+				D43E4943273B65A4004031EE /* Deque.swift in Sources */,
+				D43E4929273B62A1004031EE /* LayerView.swift in Sources */,
+				D43E492F273B62A1004031EE /* LayerSettingsListView.swift in Sources */,
+				D43E4945273B65A4004031EE /* Extensions.swift in Sources */,
+				D43E4935273B62A1004031EE /* ArenaView.swift in Sources */,
+				D43E491A273B5F91004031EE /* ArenaScene.swift in Sources */,
 				D43E48A9273B5AD1004031EE /* SallyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
